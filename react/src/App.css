@@ -10,7 +10,7 @@
 }
 
 .appHeader {
-  width: 100vw;
+  width: 120vw;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
@@ -37,6 +37,6 @@ button {
 }
 
 .darkMode {
-  background-color: #001236;
+  background-color: rgba(47, 1, 6, 0.568);
   color: white;
 }

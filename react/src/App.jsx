@@ -16,7 +16,7 @@ function App() {
         className={`appBackground ${isDarkMode ? "darkMode" : "lightMode"}`}
       >
         <div className="appHeader">
-          <h1 style={{ color: isDarkMode ? "white" : "Red" }}>Kalvium</h1>
+          <h1 style={{ color: isDarkMode ? "red" : "black" }}>Kalvium</h1>
           <button onClick={toggleDarkMode}>
             {isDarkMode ? "Light" : "Dark"}
           </button>
