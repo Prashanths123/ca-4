@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .uniqueResultCard {
+    box-sizing: border-box;
+    padding: 2rem;
+    color: black;
+    min-width: 40vw;
+    max-width: 50vw;
+    min-height: 45vh;
+    max-height: fit-content;
+    background-color: rgb(128, 128, 128);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .uniqueResultCard h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .uniqueResultCard button {
+    width: fit-content;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .uniqueResultCard {
+    padding: 2rem;
+    color: #2c3e50; /* Dark Blue-Gray Text */
+    min-width: 40vw;
+    max-width: 50vw;
+    min-height: 45vh;
+    max-height: fit-content;
+    background-color: #ecf0f1; /* Light Gray Background */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .uniqueResultCard h2 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    color: #3498db; /* Dodger Blue Text */
+  }
+  
+  .uniqueResultCard button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #27ae60; /* Nephritis Green */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .uniqueResultCard button:hover {
+    background-color: #219d3d; /* Slightly darker green on hover */
+  }
